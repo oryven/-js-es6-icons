@@ -29,18 +29,19 @@ h1 {
 .container-icon {
     text-align: center;
     background-color: white;
-    height: 150px;
+    height: 100px;
     width: calc(100% / 5 - 30px);
     margin-top: 30px;
     border-radius: 10px;
     font-size: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 8px 7px 7px -2px rgba(0,0,0,0.39);
 }
 
-.icon {
-    text-align: center;
-    line-height: 75px;
-    vertical-align: middle; 
-}
+/* .icon {
+    
+} */
 
 .blue {
     color: blue;
