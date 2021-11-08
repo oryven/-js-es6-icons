@@ -130,7 +130,7 @@ for (let i = 0; i < icone.length; i++) {
 
 	newElement = `
 	<div class="container-icon">
-		<div>
+		<div class="icon">
 			<i class="${icone[i].family} ${icone[i].prefix}${icone[i].name}"></i>
 		</div>
     	<div class="testo">

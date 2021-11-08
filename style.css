@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.filtro {
+height: 100px;
+background-color:#29B1DD ;
+}
+
+h1 {
+    color: #29B1DD;
+    font-size: 50px;
+}
 
 .container {
     background-color: #DDDDDD;
@@ -24,4 +33,11 @@
     width: calc(100% / 5 - 30px);
     margin-top: 30px;
     border-radius: 10px;
+    font-size: 20px;
+}
+
+.icon {
+    text-align: center;
+    line-height: 75px;
+    vertical-align: middle; 
 }
