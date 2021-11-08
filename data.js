@@ -130,7 +130,7 @@ for (let i = 0; i < icone.length; i++) {
 
 	newElement = `
 	<div class="container-icon">
-		<div class="icon">
+		<div class="icon ${icone[i].color}">
 			<i class="${icone[i].family} ${icone[i].prefix}${icone[i].name}"></i>
 		</div>
     	<div class="testo">
@@ -138,5 +138,4 @@ for (let i = 0; i < icone.length; i++) {
         </div>
     </div>`
 	container.innerHTML += newElement;
-	
 }
