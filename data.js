@@ -126,16 +126,32 @@ let container = document.querySelector('.container-icons');
 
 let newElement = "";
 
-for (let i = 0; i < icone.length; i++) {
+// ho usato sia il ciclio for che il foreach per iterare tutti gli elementi dell'arrey
 
+icone.forEach((elemento) => {
 	newElement = `
 	<div class="container-icon">
-		<div class="icon ${icone[i].color}">
-			<i class="${icone[i].family} ${icone[i].prefix}${icone[i].name}"></i>
+		<div class="icon ${elemento.color}">
+			<i class="${elemento.family} ${elemento.prefix}${elemento.name} ${elemento.type}"></i>
 		</div>
     	<div class="testo">
-           <span>${icone[i].name}</span>
+           <span>${elemento.name}</span>
         </div>
     </div>`
+	
 	container.innerHTML += newElement;
-}
+ });
+
+// for (let i = 0; i < icone.length; i++) {
+
+// 	newElement = `
+// 	<div class="container-icon">
+// 		<div class="icon ${icone[i].color}">
+// 			<i class="${icone[i].family} ${icone[i].prefix}${icone[i].name}"></i>
+// 		</div>
+//     	<div class="testo">
+//            <span>${icone[i].name}</span>
+//         </div>
+//     </div>`
+// 	container.innerHTML += newElement;
+// }
