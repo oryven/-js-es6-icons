@@ -4,3 +4,24 @@
     box-sizing: border-box;
 }
 
+
+.container {
+    background-color: #DDDDDD;
+}
+
+.container-icons {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-icon {
+    text-align: center;
+    background-color: white;
+    height: 150px;
+    width: calc(100% / 5 - 30px);
+    margin-top: 30px;
+    border-radius: 10px;
+}

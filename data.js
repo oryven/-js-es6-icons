@@ -122,18 +122,18 @@ const icone = [
 	}
 ];
 
-let container = document.querySelector('.container');
+let container = document.querySelector('.container-icons');
 
 let newElement = "";
 
 for (let i = 0; i < icone.length; i++) {
 
 	newElement = `
-	<div class="icon">
+	<div class="container-icon">
 		<div>
 			<i class="${icone[i].family} ${icone[i].prefix}${icone[i].name}"></i>
 		</div>
-    	<div class="text_icon">
+    	<div class="testo">
            <span>${icone[i].name}</span>
         </div>
     </div>`
